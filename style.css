@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand:hover{
+
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-link:hover{
+color: black;
+font-family: 'Dancing Script', cursive;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 26, 92);
+    font-family: 'Dancing Script', cursive;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+}
+.main{
+    background: url(./images/cor5.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+ 
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: tomato;
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.apple{
+    background:url(./images/img23.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.news{
+    background-color: black;
+    color: blanchedalmond;
+}
+.news p{
+    margin: 0;
+}
+
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.btn2{
+    height: 65px;
+    width: 55%;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 850px;
+   
+}
+.navbarDropdown{
+    font-family: 'Dancing Script', cursive;
+}
+.dropdown-item{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+/*
+.main1{
+    background-color: rgb(248, 26, 92);
+}
+*/
+
+
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #ffb03b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .back-to-top:hover {
+    background: #ffc064;
+    color: #fff;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* gallery*/
+
+  .ekko-lightbox-nav-overlay a {
+    color: goldenrod;
+}
+.gallery-title {
+    text-align: center;
+	font-weight: 500;
+	border-bottom: 1px dotted orange;
+	margin-top: 1em;
+}
